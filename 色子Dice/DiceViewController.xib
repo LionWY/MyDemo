@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DiceViewController">
+            <connections>
+                <outlet property="containerView" destination="nlT-4F-AUV" id="bpa-PP-6vT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="faceBtns" destination="AHM-98-52D" id="GTq-eu-dMH"/>
+                <outletCollection property="faceBtns" destination="pfp-TT-hiD" id="vpJ-4E-jSI"/>
+                <outletCollection property="faceBtns" destination="3Tv-87-RJ7" id="eWa-iB-4Zc"/>
+                <outletCollection property="faceBtns" destination="JDd-Sc-lOV" id="sIb-kD-Gii"/>
+                <outletCollection property="faceBtns" destination="6z9-4c-XbC" id="ZOv-TC-A3z"/>
+                <outletCollection property="faceBtns" destination="14Y-hU-OxA" id="51j-yV-fWd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nlT-4F-AUV">
+                    <rect key="frame" x="234" y="88" width="200" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Lyf-cF-63P"/>
+                        <constraint firstAttribute="height" constant="200" id="z62-wa-Qrl"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.71612580128205128" green="0.71612580128205128" blue="0.71612580128205128" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="nlT-4F-AUV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Win-ww-bbj"/>
+                <constraint firstItem="nlT-4F-AUV" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ddw-98-4wL"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AHM-98-52D">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="0.19806974229445928" blue="0.96927403899749287" alpha="1" colorSpace="calibratedRGB"/>
+            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+            <state key="normal" title="1">
+                <color key="titleColor" red="0.20346424107304695" green="1" blue="0.33177077118315379" alpha="1" colorSpace="calibratedRGB"/>
+            </state>
+            <point key="canvasLocation" x="162" y="783"/>
+        </button>
+        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pfp-TT-hiD">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="0.065540521824576925" green="1" blue="0.97629951068796239" alpha="1" colorSpace="calibratedRGB"/>
+            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+            <state key="normal" title="2">
+                <color key="titleColor" red="1" green="0.82307936629615075" blue="0.16350341372007371" alpha="1" colorSpace="calibratedRGB"/>
+            </state>
+            <point key="canvasLocation" x="421" y="783"/>
+        </button>
+        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3Tv-87-RJ7">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="0.87455724492949305" green="1" blue="0.16710514926110231" alpha="1" colorSpace="calibratedRGB"/>
+            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+            <state key="normal" title="3">
+                <color key="titleColor" red="1" green="0.28386821219550007" blue="0.1484070902842819" alpha="1" colorSpace="calibratedRGB"/>
+            </state>
+            <point key="canvasLocation" x="676" y="783"/>
+        </button>
+        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JDd-Sc-lOV">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+            <state key="normal" title="4">
+                <color key="titleColor" red="0.86945644658415522" green="0.20464099512733158" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            </state>
+            <point key="canvasLocation" x="162" y="1077"/>
+        </button>
+        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6z9-4c-XbC">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+            <state key="normal" title="5">
+                <color key="titleColor" red="1" green="0.19079861896710926" blue="0.180924313796887" alpha="1" colorSpace="calibratedRGB"/>
+            </state>
+            <point key="canvasLocation" x="421" y="1077"/>
+        </button>
+        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="14Y-hU-OxA">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+            <state key="normal" title="6">
+                <color key="titleColor" red="0.18234630818258568" green="0.2185133278217346" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            </state>
+            <point key="canvasLocation" x="676" y="1077"/>
+        </button>
+    </objects>
+</document>
